@@ -13,6 +13,7 @@
 		B2ABB8CF2505EEA0008B2DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2ABB8CE2505EEA0008B2DCC /* Assets.xcassets */; };
 		B2ABB8D22505EEA0008B2DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ABB8D02505EEA0008B2DCC /* LaunchScreen.storyboard */; };
 		B2ABB8DA2505F413008B2DCC /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ABB8D92505F413008B2DCC /* BooksTableViewController.swift */; };
+		B2ABB8DC2505F844008B2DCC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ABB8DB2505F843008B2DCC /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B2ABB8D12505EEA0008B2DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2ABB8D32505EEA0008B2DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2ABB8D92505F413008B2DCC /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		B2ABB8DB2505F843008B2DCC /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B2ABB8D02505EEA0008B2DCC /* LaunchScreen.storyboard */,
 				B2ABB8D32505EEA0008B2DCC /* Info.plist */,
 				B2ABB8D92505F413008B2DCC /* BooksTableViewController.swift */,
+				B2ABB8DB2505F843008B2DCC /* Book.swift */,
 			);
 			path = Bookcase;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2ABB8DC2505F844008B2DCC /* Book.swift in Sources */,
 				B2ABB8C62505EE9C008B2DCC /* AppDelegate.swift in Sources */,
 				B2ABB8C82505EE9C008B2DCC /* SceneDelegate.swift in Sources */,
 				B2ABB8DA2505F413008B2DCC /* BooksTableViewController.swift in Sources */,
